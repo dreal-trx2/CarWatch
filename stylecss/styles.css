@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/image/netflix_background.jpg');
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > a{
+    margin: 20px 50px 0 50px;
+}
+
+.nav-reg{
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px 20px 10px;
+
+    height: 5vh;
+    background-color: red;
+    text-align: center;
+    border-radius: 10px;
+}
+.nav-logo{
+    width: 200px;
+}
+
+.opacity{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero-section  {
+margin: 100px auto 0 auto;
+text-align: center;
+}
+.hero-section>p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.hero-section>input{
+    margin-top: 10px;
+    height: 35px;
+    color: white;
+}
+.submit-mail{
+    background-color: rgba(0,0,0,0.7);
+    border: 1px solid;
+    border-color: rgb(135,111,111);
+    width: 190px;
+    font-size: 11px;
+
+}
+.submit-mail:focus{
+    border-color: green;
+    border: 3px solid green;
+}
+
+.getstarted-btn{
+    background-color: red;
+    color: white;
+    width: 120px;
+    border: 0;
+    border-radius: 2px;
+}
+main{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 200vh;
+    
+}
+
+
+.dropd{
+    background-color: black;
+    height: 5vh;
+    width: 8%;
+    color: white;
+    border-radius: 5px;   
+}
+.opt{
+    background-color: white;
+    color: black;
+}
+.dropd:focus{
+    border-color: white;
+    border: 2px solid white;
+}
+
+.img{
+    height: 40vh;
+    border-radius: 10px;
+    margin: 0px;
+
+}
+.img-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.img:active{
+   background-color: white;
+   color: green;
+   transform: translateY(2px);    
+}
+.more-reasons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin: 20px auto 0 auto;
+}
+.enjoy{
+    background-color: rgb(50, 22, 77);
+    width: 250px;
+    height: 32vh;
+    padding: 3% 3% 0 2%;
+    margin: 10px 10px 0 auto;
+    border: 0;
+    border-radius: 10px;
+
+}
+.btn2{
+    width: 900px;
+    height: 10vh;
+    text-align: left;
+    color: white;
+    background-color: rgb(85, 82, 82);
+}
+.p{
+    text-align: center;
+}
+.submit-mail2{
+   
+        background-color: rgba(0,0,0,0.7);
+        border: 1px solid;
+        border-color: rgb(135,111,111);
+        width: 300px;
+        font-size: 50px;
+    
+}
+
+
+

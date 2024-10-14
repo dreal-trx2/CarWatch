@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url('/image/netflix_background.jpg') ;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+.nav-logo{
+    width: 250px;
+    padding: 20px;
+    margin-left: 150px;
+} 
+.sign{
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 28%;
+    height: 80vh;
+    margin: 20px auto 0 auto;
+    padding: 20px 20px 30px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sign > h2{
+    margin-right: 200px;
+    padding: 10px;
+}
+.sign2{
+    text-align: left;
+}
+.signbtn{
+    background-color: red;
+}
+.sign > input{
+    width: 280px;
+    height: 7vh;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+}
+
